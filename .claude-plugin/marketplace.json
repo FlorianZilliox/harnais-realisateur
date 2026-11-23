@@ -1,0 +1,14 @@
+{
+  "name": "harnais-realisateur",
+  "description": "Le harnais « réalisateur » : des films courts écrits en code, de l'histoire au mixage final.",
+  "owner": {
+    "name": "Florian Zilliox"
+  },
+  "plugins": [
+    {
+      "name": "realisateur",
+      "source": "./plugins/realisateur",
+      "description": "Fabriquer des films courts écrits en code (HTML et GSAP → MP4) : méthode, docteur qui installe tout, moteur huashu-motion figé, méthode video-director et outils de contrôle."
+    }
+  ]
+}

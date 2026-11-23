@@ -1,0 +1,18 @@
+#!/bin/sh
+# Lance la CLI huashu-motion livrée dans le dossier moteur/ de ce skill (copie figée, aucun code téléchargé).
+# Node et ffmpeg sont cherchés d'abord dans le cache du docteur du skill « realisateur »
+# (~/.cache/realisateur/bin, ou $REALISATEUR_CACHE/bin), puis sur la machine.
+DIR="$(cd "$(dirname "$0")" && pwd -P)"
+CLI="$DIR/../moteur/cli/om.js"
+CACHE="${REALISATEUR_CACHE:-$HOME/.cache/realisateur}"
+if [ -d "$CACHE/bin" ]; then PATH="$CACHE/bin:$PATH"; export PATH; fi
+if [ ! -f "$CLI" ]; then
+  echo "huashu-motion : le moteur est introuvable ($CLI). Recopier le dossier complet du skill, moteur/ compris." >&2
+  exit 1
+fi
+if ! command -v node >/dev/null 2>&1; then
+  echo "huashu-motion : Node.js 22 ou plus récent manque sur cette machine." >&2
+  echo "Lancer le docteur du skill realisateur avec --installer : il l'installe dans $CACHE, sans rien toucher d'autre." >&2
+  exit 1
+fi
+exec node "$CLI" "$@"
