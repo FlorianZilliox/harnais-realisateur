@@ -23,7 +23,7 @@ python3 -I <dossier du skill realisateur>/scripts/docteur.py --installer --essai
 
 Le repo est privé : il faut d'abord accepter l'invitation GitHub reçue par mail, et que l'ordinateur soit connecté à ton compte GitHub (si Claude te le signale : `gh auth login`, puis `gh auth setup-git`). Une fois le plugin installé, redémarrer Claude Code (ou taper `/reload-plugins`).
 
-Le docteur installe ce qui manque dans `~/.cache/realisateur`, sans rien toucher d'autre : Node.js 22, ffmpeg, un environnement Python pour les contrôles et les instruments réels de la musique (environ 200 Mo en tout). Il faut seulement que Google Chrome soit installé. L'essai fabrique un film de quelques secondes de bout en bout : s'il passe, tout est prêt.
+Le docteur installe ce qui manque dans `~/.cache/realisateur`, sans rien toucher d'autre : Node.js 22, ffmpeg, un environnement Python pour les contrôles et les instruments réels de la musique (environ 400 Mo en tout, mesuré sur un Mac Apple Silicon). Il faut seulement que Google Chrome soit installé. L'essai fabrique un film de quelques secondes de bout en bout : s'il passe, tout est prêt.
 
 **Sans plugin**, l'installation marche aussi en copiant les trois dossiers de `plugins/realisateur/skills/` (realisateur, huashu-motion, video-director) dans `~/.claude/skills/`, côte à côte, puis en lançant le docteur.
 
