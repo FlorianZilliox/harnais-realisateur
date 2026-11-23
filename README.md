@@ -11,7 +11,7 @@ Ce qu'il contient (un plugin, `realisateur`, avec trois skills) :
 
 Il suffit de demander à Claude Code (dans n'importe quel dossier) :
 
-> Installe le plugin « realisateur » depuis le repo GitHub privé FlorianZilliox/harnais-realisateur, puis lance son docteur avec --installer et --essai.
+> Installe le plugin « realisateur » depuis le repo GitHub FlorianZilliox/harnais-realisateur, puis lance son docteur avec --installer et --essai.
 
 Ce que Claude fera, pour information :
 
@@ -21,7 +21,7 @@ claude plugin install realisateur@harnais-realisateur
 python3 -I <dossier du skill realisateur>/scripts/docteur.py --installer --essai
 ```
 
-Le repo est privé : il faut d'abord accepter l'invitation GitHub reçue par mail, et que l'ordinateur soit connecté à ton compte GitHub (si Claude te le signale : `gh auth login`, puis `gh auth setup-git`). Une fois le plugin installé, redémarrer Claude Code (ou taper `/reload-plugins`).
+Le repo est public : aucun compte GitHub n'est nécessaire. Une fois le plugin installé, redémarrer Claude Code (ou taper `/reload-plugins`).
 
 Le docteur installe ce qui manque dans `~/.cache/realisateur`, sans rien toucher d'autre : Node.js 22, ffmpeg, un environnement Python pour les contrôles et les instruments réels de la musique (environ 400 Mo en tout, mesuré sur un Mac Apple Silicon). Il faut seulement que Google Chrome soit installé. L'essai fabrique un film de quelques secondes de bout en bout : s'il passe, tout est prêt.
 
