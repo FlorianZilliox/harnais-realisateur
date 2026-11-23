@@ -1,6 +1,6 @@
-# La méthode : faire un film de démonstration écrit en code
+# La méthode : faire un film court écrit en code
 
-Tirée de la fabrication de trois films de démonstration d'agents IA (60 à 100 s chacun, projetés devant un comité de direction), et de leurs nombreux allers-retours. Chaque règle vient d'une version refusée. Les nombres sont des points de départ, et on s'en écarte exprès, jamais par accident.
+Tirée de la fabrication de trois films de démonstration d'agents IA (60 à 100 s chacun, projetés devant un comité de direction), et de leurs nombreux allers-retours. Elle vaut pour toute vidéo ; les quelques règles propres aux films qui montrent un outil ou un agent le disent. Chaque règle vient d'une version refusée. Les nombres sont des points de départ, et on s'en écarte exprès, jamais par accident.
 
 ## 1. Le cadre de travail
 
@@ -23,8 +23,8 @@ Tirée de la fabrication de trois films de démonstration d'agents IA (60 à 100
 - **Aucune date à l'écran** (ni jour, ni mois, ni trimestre) : le film vieillit mal et ouvre des débats. Ce qui est futur se dit « Prochaine étape : … » et se dessine en contour.
 - **Le public d'abord.** Si les spectateurs ne font pas le métier montré (une direction devant un film de chefs de projet), chaque phrase doit se comprendre sans le connaître : des mots simples et complets, pas des ellipses de métier (« Tout avance. Sauf un. » ne dit rien à qui ne lit pas un tableau de tâches). Un mot du métier s'explique une fois (« le daily : le point d'équipe de chaque matin »), sinon on prend le mot courant (une tâche plutôt qu'un ticket).
 - **Un film dans une présentation ne répète pas les slides** : les slides cadrent (la question, le contexte, la cible), les films montrent. Chaque film finit sur son propre message.
-- **L'impact plutôt que l'inventaire** : faire comprendre ce que l'agent change, pas énumérer ce qu'il fait. Un garde-fou n'a sa place à l'écran que s'il montre comment l'agent travaille (il demande la donnée qui manque, il signale un biais, il repère sa propre erreur, il attend l'accord de la personne). Une propriété de sécurité (« rien ne quitte l'ordinateur ») n'en dit rien.
-- **On fait mieux, pas forcément plus vite** : le moment fort est la qualité (la bonne question, rien d'oublié, la donnée demandée plutôt qu'inventée, le biais trouvé). Les gains de temps restent petits et au second plan.
+- **L'impact plutôt que l'inventaire** : faire comprendre ce que la chose montrée change (un produit, un outil, une méthode, un agent), pas énumérer ce qu'elle fait. Pour un outil ou un agent, un garde-fou n'a sa place à l'écran que s'il montre comment il travaille (il demande la donnée qui manque, il signale un biais, il repère sa propre erreur, il attend l'accord de la personne). Une propriété de sécurité (« rien ne quitte l'ordinateur ») n'en dit rien.
+- **Mieux, pas forcément plus vite** (outil ou agent) : le moment fort est la qualité (la bonne question, rien d'oublié, la donnée demandée plutôt qu'inventée, le biais trouvé). Les gains de temps restent petits et au second plan.
 - **Le temps est compté** : si le film passe dans une intervention de quelques minutes, chaque seconde doit servir le message. Raccourcir est presque toujours un progrès.
 
 ## 4. La vérité à l'écran
@@ -32,14 +32,14 @@ Tirée de la fabrication de trois films de démonstration d'agents IA (60 à 100
 - **Le waouh par la forme, jamais par la promesse** : lumière, mouvement, rythme, vrai écran mis en scène ; aucun superlatif.
 - Chaque chiffre vient de `FACTS.md`, avec des mots pas plus forts que la source (« estimation de la PO » si c'en est une).
 - **Aucune interface inventée pour ce qui existe** : on reconstruit d'après les vraies captures. Ce qui est imaginé porte la mention « Exemple » ou se dessine en contour. Un extrait accéléré affiche son facteur.
-- **Raconter ce qui se passe sous le capot** : les vraies lignes que l'agent lit et écrit, ce qu'il attend, refuse ou rate. C'est ce qui rend la démonstration crédible.
+- **Raconter ce qui se passe sous le capot** (outil ou agent) : les vraies lignes qu'il lit et écrit, ce qu'il attend, refuse ou rate. C'est ce qui rend une démonstration crédible.
 - **Rien de nominatif** sauf accord : « une PO », « une PM ». Retirer des écrans reconstruits les noms, prénoms, chemins (`/Users/...`), adresses, noms de fichiers sensibles. Aucun nom d'outil ou de licence mis en avant sans l'accord de celui qui présente.
 
 ## 5. La forme
 
-- **Pas de bruit** : ni libellés décoratifs, ni logo répété, ni particules, ni grain gratuit, ni halo. Peu d'éléments, un seul accent de couleur par plan, réservé à ce que l'agent trouve.
+- **Pas de bruit** : ni libellés décoratifs, ni logo répété, ni particules, ni grain gratuit, ni halo. Peu d'éléments, un seul accent de couleur par plan, réservé à ce qui compte dans le plan (dans un film d'agent : ce qu'il trouve).
 - **Pas de voix off** quand le film doit tourner seul dans une présentation : tout se comprend à l'image et au texte, la musique et les effets portent le rythme. (Si une voix est voulue : `om voice`, voir les réglages de huashu-motion.)
-- **Aucun personnage animé en code** : des silhouettes déplacées en papier découpé « ne bougent pas » et ruinent le film. Les personnes sont abstraites (un poteau, une ligne, une étiquette suspendue « une PO », un objet qui leur appartient), leurs décisions s'écrivent dans une typographie à elles (un italique à empattements). L'agent est une forme simple et claire (une sphère) et son cône de lumière à bord franc : c'est le seul acteur qui se déplace. Une silhouette plate ne se montre que de face ou de profil, jamais en plongée.
+- **Aucun personnage animé en code** : des silhouettes déplacées en papier découpé « ne bougent pas » et ruinent le film. Les personnes sont abstraites (un poteau, une ligne, une étiquette suspendue « une PO », un objet qui leur appartient), leurs décisions s'écrivent dans une typographie à elles (un italique à empattements). Dans un film d'agent, l'agent est une forme simple et claire (une sphère) et son cône de lumière à bord franc : c'est le seul acteur qui se déplace. Une silhouette plate ne se montre que de face ou de profil, jamais en plongée.
 - **De l'espace, pas des aplats** : chaque scène construite en 3D (CSS `perspective`, plans à des profondeurs différentes), une caméra qui se déplace (plongée, travelling rasant, passage à travers un plan, du très large au très gros plan), des objets avec une épaisseur et une ombre nette.
 - **Rendre visible ce que l'histoire dit** : une idée visuelle par acte, qui montre au lieu d'écrire (la tâche immobile n'a pas de trace de chemin ; elle s'enfonce sous les autres).
 - **Un geste signature récurrent** (par exemple « soulever le capot » : une surface pivote sur sa charnière, dessous la couche machine, puis elle se rabat avec le résultat) et des **raccords par les objets** (la forme d'un plan devient l'élément du suivant).
@@ -63,7 +63,7 @@ Tirée de la fabrication de trois films de démonstration d'agents IA (60 à 100
 
 ## 8. Le son
 
-- **Une musique écrite pour le film** : une partition ABC dans `index.html`, jouée par `om sound` avec des instruments réels (exemple complet : `exemples/partition-jazz.py`). Un jazz élégant (contrebasse, piano, cordes, balais) porte bien les films de démonstration : une couleur par film, dans le même genre.
+- **Une musique écrite pour le film** : une partition ABC dans `index.html`, jouée par `om sound` avec des instruments réels (exemple complet : `exemples/partition-jazz.py`). Un jazz élégant (contrebasse, piano, cordes, balais) a porté les films d'origine ; le genre se choisit selon le film, avec une couleur propre à chaque film d'une même famille.
 - **La musique suit le récit** : presque silence sur le doute, vrai silence juste avant le temps fort, tutti sur le temps fort. Les `!mark:nom!` de la partition tombent sur les étiquettes `scene:nom` de la timeline.
 - **Tout effet sonore fort reste sous le temps fort** : à revérifier après chaque recoupe de la partition.
 - **Mixage final** : jamais `loudnorm` en mode dynamique (il écrase la dynamique et laisse passer la crête). Gain fixe vers −14 LUFS, puis limiteur : `outils/mixage_final.sh`, contrôlé ensuite par `qa_video.py` de video-director (−14 LUFS ± 1, crête vraie ≤ −1 dBTP).

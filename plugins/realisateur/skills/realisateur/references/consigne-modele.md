@@ -22,7 +22,7 @@
 
 ## La direction visuelle retenue
 - [Son nom, ses références (voir `references-motion.md`), la date du choix.]
-- [Constantes de tous les films : matières, palette commune, l'agent, les personnes (abstraites, jamais de personnage animé en code), les typographies et leurs rôles, la taille minimale du texte.]
+- [Constantes de tous les films : matières, palette commune, le héros (le produit, l'outil ou l'agent montré), les personnes (abstraites, jamais de personnage animé en code), les typographies et leurs rôles, la taille minimale du texte.]
 - [Palettes et musiques propres à chaque film, pour qu'on ne les confonde pas.]
 - [Ce qui est rejeté, avec les mots de la personne.]
 

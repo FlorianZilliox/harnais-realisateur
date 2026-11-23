@@ -1,6 +1,6 @@
 # Harnais « réalisateur »
 
-Les outils et la méthode qui ont servi à fabriquer des films de démonstration d'agents IA : des films courts, écrits en code (HTML et GSAP) et rendus image par image en MP4, avec leur musique, sans logiciel de montage. À charger dans Claude Code, pour l'ajouter à ton Personal OS.
+Un harnais pour fabriquer des vidéos avec Claude Code : des films courts écrits en code (HTML et GSAP), rendus image par image en MP4 avec leur musique, sans logiciel de montage. Motion design, film de lancement, explication animée, démonstration d'un produit ou d'un outil, vidéo pour une présentation ou pour les réseaux : le sujet est libre. À charger dans Claude Code, pour l'ajouter à ton Personal OS.
 
 Ce qu'il contient (un plugin, `realisateur`, avec trois skills) :
 - **realisateur** : le point d'entrée. La méthode tirée de vrais films (histoire, vérité à l'écran, forme, français, temps de lecture, son, contrôles), un docteur qui vérifie la machine et installe seul ce qui manque, des outils de contrôle (tenues de lecture mesurées image par image, mixage final, planches d'images), un exemple de partition jazz, un modèle de consigne pour les agents vidéo, et une recherche sur 33 films et keynotes de référence.
@@ -29,7 +29,7 @@ Le docteur installe ce qui manque dans `~/.cache/realisateur`, sans rien toucher
 
 ## S'en servir
 
-Demander simplement un film : « Fais-moi un film de 60 secondes qui montre comment fonctionne mon agent X, pour ma présentation de jeudi. » Le skill `realisateur` se charge, lit sa méthode et suit ses étapes : la matière (tes vraies captures), trois directions visuelles au choix, l'histoire, la construction, la musique, le rendu et les contrôles. Il montre à chaque étape. On peut aussi l'appeler par `/realisateur:realisateur`.
+Demander simplement un film : « Fais-moi une vidéo de 30 secondes pour annoncer notre nouvelle appli », ou « un film de 60 secondes qui explique notre méthode, pour ma présentation de jeudi ». Le skill `realisateur` se charge, lit sa méthode et suit ses étapes : la matière (tes vraies captures), trois directions visuelles au choix, l'histoire, la construction, la musique, le rendu et les contrôles. Il montre à chaque étape. On peut aussi l'appeler par `/realisateur:realisateur`.
 
 Pour corriger un film pendant qu'il se fabrique : `om studio` ouvre un aperçu en direct où l'on peut commenter un plan précis.
 

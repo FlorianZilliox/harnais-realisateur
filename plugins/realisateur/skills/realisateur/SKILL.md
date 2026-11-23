@@ -1,11 +1,11 @@
 ---
 name: realisateur
-description: "Point d'entrée du harnais « réalisateur » : fabriquer des films courts écrits en code et rendus image par image (HTML et GSAP → MP4), en particulier des films de démonstration d'agents IA, de produits ou de méthodes à projeter dans une présentation : la méthode tirée de vrais films (histoire, vérité à l'écran, forme, langue française, temps de lecture, son), le docteur qui installe seul tout ce qu'il faut, le moteur huashu-motion figé, la méthode video-director et des outils de contrôle (tenues de lecture mesurées, mixage final, planches). À charger dès qu'on veut « faire une vidéo », « un film », « une démo animée », « un motion design », « une vidéo pour ma présentation », « animer notre agent », « réalisateur », ou corriger un film déjà fait (« trop rapide », « on n'a pas le temps de lire », « c'est froid », « ça fait cheap »)."
+description: "Point d'entrée du harnais « réalisateur » : fabriquer des films courts écrits en code et rendus image par image (HTML et GSAP → MP4), sur n'importe quel sujet : motion design, film de lancement, explication animée, démonstration d'un produit, d'un outil ou d'un agent, vidéo pour une présentation ou pour les réseaux. Il apporte la méthode tirée de vrais films (histoire, vérité à l'écran, forme, langue française, temps de lecture, son), le docteur qui installe seul tout ce qu'il faut, le moteur huashu-motion figé, la méthode video-director et des outils de contrôle (tenues de lecture mesurées, mixage final, planches). À charger dès qu'on veut « faire une vidéo », « un film », « une démo animée », « un motion design », « une vidéo de lancement », « une explication animée », « une vidéo pour les réseaux », « une vidéo pour ma présentation », « animer notre agent », « réalisateur », ou corriger un film déjà fait (« trop rapide », « on n'a pas le temps de lire », « c'est froid », « ça fait cheap »)."
 ---
 
 # Réalisateur
 
-Un film de démonstration est un film, pas une démo technique : une histoire, une idée, une forme qui donne envie, et rien d'affirmé qui ne soit vrai. Ce harnais réunit trois skills frères, installés côte à côte :
+Une vidéo, même courte, est un film : une histoire, une idée, une forme qui donne envie, et rien d'affirmé qui ne soit vrai. Ce harnais réunit trois skills frères, installés côte à côte :
 - **realisateur** (ce skill) : la méthode tirée de vrais films, le docteur, les outils de contrôle, un modèle de consigne.
 - **huashu-motion** : le moteur, figé (`om` : créer, prévisualiser, composer la musique, rendre, contrôler). Lire sa section « Réglages locaux » avant tout film.
 - **video-director** : la méthode générale en étapes (traitement, timeline, images clés, construction, son, rendu, revue) et ses scripts de contrôle.

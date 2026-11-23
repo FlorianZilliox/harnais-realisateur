@@ -1,6 +1,6 @@
 {
   "name": "realisateur",
-  "version": "1.0.0",
-  "description": "Harnais « réalisateur » : films de démonstration écrits en code et rendus image par image, de l'histoire au mixage final, avec un docteur qui installe seul ce qui manque.",
+  "version": "1.1.0",
+  "description": "Harnais « réalisateur » : des vidéos écrites en code et rendues image par image (motion design, lancement, explication, démonstration), de l'histoire au mixage final, avec un docteur qui installe seul ce qui manque.",
   "author": { "name": "Florian Zilliox" }
 }
